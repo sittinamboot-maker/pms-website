@@ -1,0 +1,92 @@
+# หน้าแอดมิน Pages CMS (https://app.pagescms.org)
+# ทุกครั้งที่กดบันทึก ไฟล์ใน content/ จะถูกแก้บน GitHub แล้ว Cloudflare สร้างเว็บใหม่ให้อัตโนมัติ
+
+media:
+  input: assets/img
+  output: /assets/img
+  extensions: [jpg, jpeg, png, webp]
+  rename: random
+
+content:
+  - name: settings
+    label: ข้อมูลบริษัท
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: company_th, label: ชื่อบริษัท (ไทย), type: string, required: true }
+      - { name: company_en, label: ชื่อบริษัท (อังกฤษ), type: string }
+      - { name: phone, label: เบอร์โทร, type: string, required: true, description: "เช่น 092-641-6559" }
+      - { name: email, label: อีเมล, type: string, required: true }
+      - { name: line_url, label: ลิงก์ LINE, type: string, description: "เช่น https://line.me/ti/p/xxxx" }
+      - { name: line_qr, label: รูป QR Code LINE, type: image }
+      - { name: address, label: ที่อยู่, type: text }
+      - { name: map_query, label: คำค้นหาแผนที่ Google, type: string, description: "ชื่อสถานที่หรือที่อยู่ที่ใช้ปักหมุดแผนที่" }
+      - { name: founded_date, label: วันก่อตั้ง, type: date }
+      - { name: founded_th, label: วันก่อตั้ง (ข้อความภาษาไทย), type: string }
+      - { name: capital, label: ทุนจดทะเบียน, type: string }
+      - { name: tax_id, label: เลขผู้เสียภาษี, type: string }
+      - { name: warranty_months, label: รับประกันงานซ่อม (เดือน), type: string }
+      - { name: hero_title, label: หัวข้อหลัก (บรรทัดที่ 1), type: string }
+      - { name: hero_highlight, label: หัวข้อหลัก (บรรทัดที่ 2 สีส้ม), type: string }
+      - { name: hero_lead, label: คำอธิบายใต้หัวข้อ, type: text }
+      - { name: hero_image, label: รูปพื้นหลังด้านบน, type: image }
+      - { name: brands, label: ข้อความแบรนด์ที่รองรับ, type: text }
+      - { name: about_1, label: เกี่ยวกับเรา (ย่อหน้า 1), type: text }
+      - { name: about_2, label: เกี่ยวกับเรา (ย่อหน้า 2), type: text }
+      - { name: web3forms_key, label: Web3Forms Access Key, type: string, description: "รับฟรีที่ web3forms.com เพื่อให้ฟอร์มส่งเข้าอีเมล (ปล่อยว่าง = เปิดโปรแกรมอีเมลของลูกค้า)" }
+      - { name: site_url, label: โดเมนเว็บ, type: string, description: "เช่น https://www.pmstechnical.com (ไม่ต้องมี / ท้าย)" }
+
+  - name: equipment
+    label: อุปกรณ์ที่รับซ่อม
+    type: file
+    path: content/equipment.json
+    format: json
+    fields:
+      - name: items
+        label: รายการอุปกรณ์
+        type: object
+        list: true
+        fields:
+          - { name: title, label: ชื่ออุปกรณ์, type: string, required: true }
+          - { name: detail, label: รายละเอียด / ยี่ห้อ, type: string }
+          - name: category
+            label: หมวด
+            type: select
+            options:
+              values:
+                - { name: elec, label: "ไฟฟ้า & อิเล็กทรอนิกส์" }
+                - { name: ctrl, label: "ควบคุม & จอแสดงผล" }
+                - { name: mech, label: "มอเตอร์ & เครื่องกล" }
+          - { name: image, label: รูป, type: image, required: true }
+
+  - name: works
+    label: ผลงาน
+    type: file
+    path: content/works.json
+    format: json
+    fields:
+      - name: items
+        label: รูปผลงาน (รูปแรกจะแสดงใหญ่)
+        type: object
+        list: true
+        fields:
+          - { name: image, label: รูป, type: image, required: true }
+          - { name: caption, label: คำบรรยาย, type: string }
+
+  - name: reports
+    label: รายงานการซ่อม
+    type: file
+    path: content/reports.json
+    format: json
+    fields:
+      - { name: items, label: ตัวอย่างรายงาน, type: string, list: true }
+      - { name: images, label: รูปรายงาน (แสดง 3 รูปแรก), type: image, list: true }
+
+  - name: clients
+    label: ลูกค้า
+    type: file
+    path: content/clients.json
+    format: json
+    fields:
+      - { name: items, label: รายชื่อลูกค้า, type: string, list: true }

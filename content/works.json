@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "image": "assets/img/pm1.jpg",
+      "caption": "Dismantle & Inspect"
+    },
+    {
+      "image": "assets/img/pm2.jpg",
+      "caption": "Cleaning"
+    },
+    {
+      "image": "assets/img/pm3.jpg",
+      "caption": "Find Defective Points"
+    },
+    {
+      "image": "assets/img/pm4.jpg",
+      "caption": "Replace Worn Parts"
+    },
+    {
+      "image": "assets/img/board2.jpg",
+      "caption": "Repair & Test"
+    }
+  ]
+}

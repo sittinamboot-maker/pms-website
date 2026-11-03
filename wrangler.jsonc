@@ -1,0 +1,9 @@
+// Cloudflare Worker ที่เสิร์ฟเว็บ (static files จาก deploy/)
+// เมื่อเชื่อม GitHub แล้ว Cloudflare จะรัน: npm run build -> npx wrangler deploy
+{
+  "name": "pms-technical",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./deploy"
+  }
+}

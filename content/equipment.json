@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "title": "Inverter",
+      "detail": "Yaskawa · Mitsubishi · Fuji · Danfoss",
+      "category": "elec",
+      "image": "assets/img/inverter.jpg"
+    },
+    {
+      "title": "Servo Amp / Servo Pack",
+      "detail": "Fanuc · Mitsubishi · Other",
+      "category": "elec",
+      "image": "assets/img/servo.jpg"
+    },
+    {
+      "title": "PLC · Power Supply",
+      "detail": "ทุกรุ่น ทุกยี่ห้อ",
+      "category": "elec",
+      "image": "assets/img/plc.jpg"
+    },
+    {
+      "title": "Control Board · CNC Board",
+      "detail": "ซ่อมระดับอุปกรณ์บนแผงวงจร",
+      "category": "elec",
+      "image": "assets/img/board.jpg"
+    },
+    {
+      "title": "Monitor · Touch Screen",
+      "detail": "HMI / หน้าจอควบคุม",
+      "category": "ctrl",
+      "image": "assets/img/touch.jpg"
+    },
+    {
+      "title": "Temperature Control",
+      "detail": "ตัวควบคุมอุณหภูมิ",
+      "category": "ctrl",
+      "image": "assets/img/tempctrl.jpg"
+    },
+    {
+      "title": "TCU Mold Temp. Controller",
+      "detail": "GMCL-55T-OM · GMCH-55T-OM",
+      "category": "ctrl",
+      "image": "assets/img/tcu.jpg"
+    },
+    {
+      "title": "Chiller",
+      "detail": "ระบบทำความเย็นอุตสาหกรรม",
+      "category": "ctrl",
+      "image": "assets/img/chiller.jpg"
+    },
+    {
+      "title": "Ultrasonic Generator",
+      "detail": "Repair & PM",
+      "category": "elec",
+      "image": "assets/img/ultrasonic.jpg"
+    },
+    {
+      "title": "Electric Welding Machine",
+      "detail": "Panasonic TIG · Other",
+      "category": "elec",
+      "image": "assets/img/welding.jpg"
+    },
+    {
+      "title": "Motor & Pump",
+      "detail": "มอเตอร์ · ปั๊มน้ำ · ปั๊มลม",
+      "category": "mech",
+      "image": "assets/img/motor.jpg"
+    },
+    {
+      "title": "Coil Brake · Clutch",
+      "detail": "Ogura Clutch · Other",
+      "category": "mech",
+      "image": "assets/img/coil.jpg"
+    },
+    {
+      "title": "Hoist",
+      "detail": "รอกไฟฟ้า Repair & PM",
+      "category": "mech",
+      "image": "assets/img/hoist.jpg"
+    },
+    {
+      "title": "Card Control · Keypad",
+      "detail": "การ์ดควบคุมเครื่องจักรอื่น ๆ",
+      "category": "ctrl",
+      "image": "assets/img/keypad.jpg"
+    },
+    {
+      "title": "Water Pump · Sandblast",
+      "detail": "Hitachi JD40X32 · ขัดสนิม",
+      "category": "mech",
+      "image": "assets/img/waterpump.jpg"
+    },
+    {
+      "title": "Air Pump · Vacuum · Scale",
+      "detail": "และอุปกรณ์อื่น ๆ",
+      "category": "mech",
+      "image": "assets/img/pump.jpg"
+    }
+  ]
+}
