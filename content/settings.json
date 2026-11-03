@@ -1,10 +1,10 @@
 {
-  "company_th": "บริษัท พีเอ็มเอส เทคนิคอล กรุ๊ป จำกัด",
+  "company_th": "บริษัท พีเอ็มเอส เทคนิคอล กรุ๊ป จำกัด boost",
   "company_en": "PMS TECHNICAL GROUP CO., LTD.",
   "phone": "092-641-6559",
   "email": "pms_technicalgroup@hotmail.com",
   "line_url": "https://line.me/ti/p/LFVkLmJh64",
-  "line_qr": "assets/img/line-qr.png",
+  "line_qr": "/assets/img/line-qr.png",
   "address": "289/67 หมู่ 11 ต.หนองขาม อ.ศรีราชา จ.ชลบุรี 20110",
   "map_query": "ต.หนองขาม อ.ศรีราชา ชลบุรี",
   "founded_date": "2014-02-25",
@@ -15,10 +15,8 @@
   "hero_title": "ซ่อมเครื่องจักรอุตสาหกรรม",
   "hero_highlight": "ถึงระดับแผงวงจร",
   "hero_lead": "รับซ่อม Inverter, Servo Amp, PLC, Power Supply, Touch Screen, Chiller, TCU, Motor & Pump และบริการ PM ครบวงจร โดยทีมช่างที่ชำนาญงาน ราคายุติธรรม",
-  "hero_image": "assets/img/hero.jpg",
+  "hero_image": "/assets/img/hero.jpg",
   "brands": "รองรับแบรนด์ชั้นนำ เช่น Yaskawa, Mitsubishi, Fuji, Danfoss, Fanuc, Panasonic, Hitachi, Ogura และอื่น ๆ",
   "about_1": "บริษัท พีเอ็มเอส เทคนิคอล กรุ๊ป จำกัด ก่อตั้งเมื่อวันที่ 25 กุมภาพันธ์ 2557 ด้วยทุนจดทะเบียน 1,000,000 บาท ดำเนินงานด้านบริการซ่อมแซมและบำรุงรักษาเครื่องจักรอุตสาหกรรมทุกประเภท",
-  "about_2": "เราพร้อมให้บริการงานด้านไฟฟ้าและเครื่องกลด้วยทีมช่างที่ชำนาญงาน และยินดีให้คำปรึกษาทุกปัญหาเครื่องจักร",
-  "web3forms_key": "",
-  "site_url": ""
+  "about_2": "เราพร้อมให้บริการงานด้านไฟฟ้าและเครื่องกลด้วยทีมช่างที่ชำนาญงาน และยินดีให้คำปรึกษาทุกปัญหาเครื่องจักร"
 }
